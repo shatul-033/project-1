@@ -1,0 +1,41 @@
+.box1{
+    width:600px;
+    height: 400px;
+    background-color: green;
+    position: relative;
+    
+
+
+}
+.box2{
+    height: 300px;
+    width: 150px;
+    background-color:red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0;
+
+    top: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+.name{
+    border: 2px solid tomato;
+    margin-top:10px ;
+    width: 400;
+    background-color: brown;
+    color: azure;
+    position: sticky;
+    top: 0;
+
+}
+p{
+    padding-bottom: 500px;
+}
+.moni{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}

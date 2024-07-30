@@ -1,0 +1,18 @@
+h1{
+    color: rgba(255, 0, 0, 0.447);
+
+}
+h2{
+    color: rgb(0,156,255,0.5);
+
+}
+p{
+    color:#000000
+}
+.box{
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(red,green);
+    background: linear-gradient(45deg,rgba(255,0,0),green);
+    background:radial-gradient(red,green);
+}

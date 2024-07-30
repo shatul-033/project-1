@@ -1,0 +1,7 @@
+p{
+    border:5px solid red;
+    outline-width:10px;
+    outline-style: dotted;
+    outline-color: blue;
+    outline-offset: 10 px;
+}

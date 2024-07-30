@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <from action="#" method="POST">
+        <h1 style="text-align:center">Sign up form</h1>
+    <hr>
+    <br>
+    <lavel for="user">Name:</lavel>
+    <input type="text" id="user" name="user" placeholder="User Name"><br>
+    <lavel for="email">Email:</lavel>
+    <input type="email" id="email" name="usermail" required placeholder="user mail"><br>
+    <lavel for="pass">Password</lavel>
+    <input type="password" id="pass" name="password" placeholder="Password">
+    <br>
+    <lavel for="phn">Phone:</lavel>
+    <br>
+    <select name="code">
+        <option value="+880">+880</option>
+        <option value="+880">+990</option>
+        <option value="+880">+110</option>
+    </select>
+    <input type="number" id="phn" name="phone"placeholder="123456789" required>
+    <br>
+    <lavel for="country">Country</lavel>
+    <input list="con">
+    <datalist id="con">
+        <option value="Bangladesh"></option>
+        <option value="Japan"></option>
+        <option value="India"></option>
+        <option value="Canada"></option>
+    </datalist>
+    <br>
+
+    Gender:
+    <input type="radio" id="gnd1" name="gender">
+    <lavel for="gnd1">Male</lavel>
+   
+    <input type="radio" id="gnd2" name="gender">
+    <lavel for="gnd2">Female</lavel>
+    
+    <br>
+    <lavel for="date">date of birth</lavel>
+    <input type="date" id="date" name="dob">
+    <br>
+    <lavel for="time">Time:</lavel>
+    <input type="time" id="time" name="tm"><br>
+    <lavel for="colors">Colors</lavel>
+    <input type="color" id="colors" name="colors">
+    <br>
+    <lavel for="file">Choose your photo:</lavel>
+    <input type="file" id="file" name="f1">
+    <br>
+    <input type="Checkbox" id="vehicle1" name="vec">
+    <lavel for="vehicle1">I have a bike</lavel>
+    <input type="Checkbox" id="vehicle2" name="vec">
+    <lavel for="vehicle2">I have a bicycle</lavel>
+    <br>
+    <textarea name="comment" cols="30" rows="10">comment here</textarea> 
+
+  <br>
+  <input type="submit" value="Send">
+  <input type="Reset" value="Reset">
+
+ </from>
+   
+
+
+
+</body>
+</html>

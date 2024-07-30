@@ -1,0 +1,65 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    margin: 100px auto;
+    position: relative;
+    /*animation-name: square;
+    animation-duration: 4s;
+    animation-timing-function: step-end;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 15px solid tomato;
+    border-radius: 50%;
+    animation: box 2s infinite forwards;
+
+}
+@keyframes square{
+    0%{
+        background-color: brown;
+    }
+      25%{
+            background-color: aqua;
+        }
+        50%{
+            background-color:green;
+            left: 500px;
+            right: 500px;
+            border-radius: 50%;
+        }
+        75%{
+            background-color:blue;
+        }
+        100%{
+            background-color:orange;
+        }
+    
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 5px solid blue;
+    animation: circle 2s infinite alternate;
+
+}
+@keyframes box{
+    0%{
+        border-color: red; transform:scale(1);
+    }
+    40%{
+        border-color: blue; transform:scale(1.5);
+    }
+    75%{
+        border-color: olive; transform:scale(2);
+    }
+}
+@keyframes circle{
+    0%{transform: rotate(0deg); border-width: 10px;}
+}

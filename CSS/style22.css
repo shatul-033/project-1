@@ -1,0 +1,12 @@
+.so{
+    width: 50px;
+    height: 50px;
+    background-image: url(social.png);
+    background-position: 0 -59px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    transition: 1s;
+}
+.so:hover{
+    background-position: 0 -138px;
+}

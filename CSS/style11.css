@@ -1,0 +1,18 @@
+a{
+    color:brown;
+    text-decoration: none;
+    background-color: azure;
+    font-size: 50px;
+    padding: 5px 15px;
+}
+a:hover{
+    color:white;
+    background-color: black;
+}
+a:active{
+    color: yellow;
+}
+a:visited{
+    color: tomato;
+    background-color: black;
+}
